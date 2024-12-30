@@ -4394,6 +4394,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C65114"
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9217fdf1-a66d-4d8c-a55c-58077cc9d5a6")
 		)
@@ -4446,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -4466,6 +4475,15 @@
 			)
 		)
 		(property "Description" "20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, DIP-8"
+			(at 72.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1338203"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -4514,7 +4532,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2a968")
 		(property "Reference" "P1"
 			(at 261.62 32.512 0)
@@ -4777,7 +4795,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2b6c3")
 		(property "Reference" "P3"
 			(at 144.78 54.102 0)
@@ -4843,7 +4861,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2b6d3")
 		(property "Reference" "P2"
 			(at 144.78 50.292 0)
@@ -4909,7 +4927,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2b6da")
 		(property "Reference" "P4"
 			(at 144.78 59.182 0)
@@ -4975,7 +4993,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2b6de")
 		(property "Reference" "P5"
 			(at 144.78 62.992 0)
@@ -5087,6 +5105,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C412819"
+			(at 92.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "aa8b2b3b-95ac-417c-9b94-9ba0c9a832b8")
 		)
@@ -5163,7 +5190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -5172,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209231001_Yajingxin-TX503212M2LDCE1T_C5182767.pdf"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -5182,6 +5209,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5182767"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -5251,6 +5287,15 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C65114"
 			(at 161.29 140.97 0)
 			(effects
 				(font
@@ -5469,6 +5514,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17927"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb506178-3ef4-4bd1-a1aa-fc1702edd307")
 		)
@@ -5528,6 +5582,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17927"
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -5603,6 +5666,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25351"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2711f307-cbea-4974-aaae-32466bc744d0")
 		)
@@ -5662,6 +5734,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907384"
 			(at 190.5 147.32 0)
 			(effects
 				(font
@@ -5737,6 +5818,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C26030"
+			(at 201.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3329f40b-29d1-4904-9f63-54b7330ccc7f")
 		)
@@ -5786,7 +5876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 213.36 147.32 0)
 			(effects
 				(font
@@ -5796,6 +5886,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907384"
 			(at 213.36 147.32 0)
 			(effects
 				(font
@@ -5938,6 +6037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9ab605c-05b1-4e26-abbf-6393c0455dc5")
 		)
@@ -5999,6 +6107,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 44.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 44.45 96.52 0)
 			(effects
 				(font
@@ -6076,6 +6193,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4fa1116-0e77-4a79-a9e0-081f7e10a37e")
 		)
@@ -6145,6 +6271,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06960d96-ff78-476b-b1fb-a2f514aba8f5")
 		)
@@ -6167,7 +6302,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2c449")
 		(property "Reference" "P7"
 			(at 219.71 75.692 0)
@@ -6233,7 +6368,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c2c44a")
 		(property "Reference" "P6"
 			(at 219.71 68.072 0)
@@ -6344,6 +6479,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C137240"
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f8e5225-3623-4d04-a7ec-136cdcdb9608")
 		)
@@ -6403,6 +6547,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137240"
 			(at 236.22 125.73 0)
 			(effects
 				(font
@@ -6478,6 +6631,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2980185"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01f4906f-277d-4247-9d2b-e9a168963269")
 		)
@@ -6537,6 +6699,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 236.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965822"
 			(at 236.22 140.97 0)
 			(effects
 				(font
@@ -6678,6 +6849,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C137240"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fb79f3d-7a78-4e62-b76d-a13e45c16ce0")
 		)
@@ -6737,6 +6917,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C130717"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -7009,6 +7198,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C110474"
+			(at 39.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "831cea60-d45e-48c8-abde-621f31e5e854")
 		)
@@ -7073,6 +7271,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90539"
 			(at 52.07 132.08 0)
 			(effects
 				(font
@@ -7150,6 +7357,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C577125"
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19663944-91f4-40ad-bf00-fa04f580b1c9")
 		)
@@ -7211,6 +7427,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C577125"
 			(at 57.15 156.21 0)
 			(effects
 				(font
@@ -7352,6 +7577,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4410"
+			(at 193.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b573847e-8503-4754-af50-631ad7108ed1")
 		)
@@ -7411,6 +7645,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4410"
 			(at 193.04 73.66 0)
 			(effects
 				(font
@@ -7488,6 +7731,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C97929"
+			(at 210.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3dc5901b-2bde-442b-b75b-ce4a1d9c724a")
 		)
@@ -7549,6 +7801,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97929"
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -7711,7 +7972,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000050c539d9")
 		(property "Reference" "P8"
 			(at 261.62 37.592 0)
@@ -7796,7 +8057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal"
+		(property "Footprint" "magfest4:AMPHENOL_10118192-0001LF"
 			(at 186.69 168.91 0)
 			(effects
 				(font
@@ -7805,7 +8066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302202_Amphenol-ICC-10118192-0001LF_C132564.pdf"
 			(at 186.69 168.91 0)
 			(effects
 				(font
@@ -7815,6 +8076,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 182.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C132564"
 			(at 182.88 167.64 0)
 			(effects
 				(font

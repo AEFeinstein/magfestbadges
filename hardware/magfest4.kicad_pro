@@ -37,9 +37,9 @@
         "other_text_thickness": 0.3048,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.302,
-          "height": 5.08,
-          "width": 5.08
+          "drill": 0.0,
+          "height": 1.9,
+          "width": 1.9
         },
         "silk_line_width": 0.381,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -111,7 +117,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.25,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.1905,
         "min_hole_clearance": 0.25,
@@ -126,7 +132,7 @@
         "min_track_width": 0.2032,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.889,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -172,7 +178,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.38,
+        0.39,
+        0.4,
+        0.75,
+        0.8
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -199,7 +212,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -463,23 +481,6 @@
         "line_style": 0,
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.889,
-        "via_drill": 0.635,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.508,
-        "microvia_drill": 0.127,
         "name": "Fat",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -683,6 +684,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
