@@ -4455,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -6631,7 +6631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2980185"
+		(property "LCSC" "C434442"
 			(at 224.79 140.97 0)
 			(effects
 				(font
